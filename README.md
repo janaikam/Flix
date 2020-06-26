@@ -2,7 +2,7 @@
 
 Flix is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: **7** hours spent in total
 
 ## User Stories
 
@@ -13,8 +13,8 @@ The following **required** functionality is complete:
 - [X] Poster images are loaded using the UIImageView category in the AFNetworking library.
 - [X] User sees a loading state while waiting for the movies API.
 - [X] User can pull to refresh the movie list.
-- [ ] User sees an error message when there's a networking error.
-- [ ] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+- [X] User sees an error message when there's a networking error.
+- [X] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
 
 The following **optional** features are implemented:
 
@@ -40,9 +40,10 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/URJE0EFBal.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/2GeLg4wSYl.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [RecordIt].
 
 ## Notes
 
