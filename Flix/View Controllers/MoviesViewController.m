@@ -49,6 +49,18 @@
     NSURLSessionDataTask *task = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
            if (error != nil) {
                NSLog(@"%@", [error localizedDescription]);
+               
+               UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Cannot Load Movies"
+                      message:@"The internet connection appears to be offline."
+               preferredStyle:(UIAlertControllerStyleAlert)];
+               
+               
+               UIAlertAction *retryAction = [UIAlertAction actionWithTitle:@"Try Again" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {[self fetchMovies];}];
+                   
+               [alert addAction:retryAction];
+               
+               [self presentViewController:alert animated:YES completion:^{}];
+               
            }
            else {
                NSDictionary *dataDictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
@@ -101,6 +113,7 @@
     
     return cell;
 }
+
 
 
 
