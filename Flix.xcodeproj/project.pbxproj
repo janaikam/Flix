@@ -12,6 +12,7 @@
 		1A0E0FF624A552CA00DE2A3B /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E0FF524A552CA00DE2A3B /* DetailsViewController.m */; };
 		1A4FB0B224A65BE300C63538 /* MoviesGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4FB0B124A65BE300C63538 /* MoviesGridViewController.m */; };
 		1A4FB0B524A65E1A00C63538 /* MovieCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4FB0B424A65E1A00C63538 /* MovieCollectionCell.m */; };
+		1A87007F24A6A97A0016C1C4 /* GridDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87007E24A6A97A0016C1C4 /* GridDetailsViewController.m */; };
 		1ABC0A4824A3C8240023B7BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABC0A4724A3C8240023B7BC /* AppDelegate.m */; };
 		1ABC0A4B24A3C8240023B7BC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABC0A4A24A3C8240023B7BC /* SceneDelegate.m */; };
 		1ABC0A5124A3C8240023B7BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABC0A4F24A3C8240023B7BC /* Main.storyboard */; };
@@ -51,6 +52,8 @@
 		1A4FB0B124A65BE300C63538 /* MoviesGridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesGridViewController.m; sourceTree = "<group>"; };
 		1A4FB0B324A65E1A00C63538 /* MovieCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCollectionCell.h; sourceTree = "<group>"; };
 		1A4FB0B424A65E1A00C63538 /* MovieCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCollectionCell.m; sourceTree = "<group>"; };
+		1A87007D24A6A97A0016C1C4 /* GridDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridDetailsViewController.h; sourceTree = "<group>"; };
+		1A87007E24A6A97A0016C1C4 /* GridDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridDetailsViewController.m; sourceTree = "<group>"; };
 		1ABC0A4324A3C8240023B7BC /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABC0A4624A3C8240023B7BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1ABC0A4724A3C8240023B7BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -176,6 +179,8 @@
 				1A0E0FF524A552CA00DE2A3B /* DetailsViewController.m */,
 				1A4FB0B024A65BE300C63538 /* MoviesGridViewController.h */,
 				1A4FB0B124A65BE300C63538 /* MoviesGridViewController.m */,
+				1A87007D24A6A97A0016C1C4 /* GridDetailsViewController.h */,
+				1A87007E24A6A97A0016C1C4 /* GridDetailsViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -467,6 +472,7 @@
 				1ABC0A5924A3C8250023B7BC /* main.m in Sources */,
 				1ABC0A4B24A3C8240023B7BC /* SceneDelegate.m in Sources */,
 				1A4FB0B224A65BE300C63538 /* MoviesGridViewController.m in Sources */,
+				1A87007F24A6A97A0016C1C4 /* GridDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
