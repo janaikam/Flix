@@ -38,6 +38,8 @@
     
 }
 
+
+
 - (void) fetchMovies {
     [self.activityIndicator startAnimating];
     
